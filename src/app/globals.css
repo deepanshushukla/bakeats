@@ -3,6 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #ff6b6b;
+  --primary-dark: #ff5252;
+  --secondary: #4ecdc4;
+  --text-muted: #666666;
 }
 
 @theme inline {
@@ -16,7 +20,45 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #ff6b6b;
+    --primary-dark: #ff5252;
+    --secondary: #4ecdc4;
+    --text-muted: #999999;
   }
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
 }
 
 body {
