@@ -115,7 +115,7 @@ export default function ContactForm({ productName }: ContactFormProps) {
 <body>
   <div class="container">
     <div class="header">
-      <img src="https://bakeats.com/bakeats-logo.png" alt="Bakeats Logo" class="logo">
+      <img src="https://bakeats.vercel.app/bakeats-logo.png" alt="Bakeats Logo" class="logo">
       <h1>New Order: ${productName || 'General Inquiry'}</h1>
     </div>
     <div class="content">
