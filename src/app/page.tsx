@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Hero from '@/components/Hero';
 import ContactForm from '@/components/ContactForm';
-import Navigation from '@/components/Navigation';
 import Products from '@/app/products/page';
 import Footer from '@/components/Footer';
 

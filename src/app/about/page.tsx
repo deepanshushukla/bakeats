@@ -12,8 +12,8 @@ export default function About() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-lg mb-4">
-                Bakeats was born out of a passion for creating premium rusks and biscuits that bring joy to people's lives. 
-                Our founder, [Founder's Name], started this journey with a simple goal - to create the best baked goods using 
+                Bakeats was born out of a passion for creating premium rusks and biscuits that bring joy to people&rsquo;s lives. 
+                Our founder, [Founder&rsquo;s Name], started this journey with a simple goal - to create the best baked goods using 
                 only the finest ingredients and traditional methods.
               </p>
               <p className="text-lg">

@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Footer() {
   return (
@@ -41,7 +42,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold text-gray-800">Quick Links</h4>
             <ul className="space-y-4">
               <li>
-                <a href="/" className="text-gray-600 hover:text-orange-600" style={{
+                <Link href="/" className="text-gray-600 hover:text-orange-600" style={{
                   transition: 'all 0.3s ease',
                   transform: 'scale(1)',
                   display: 'inline-block'
@@ -50,10 +51,10 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                   </svg>
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/products" className="text-gray-600 hover:text-orange-600" style={{
+                <Link href="/products" className="text-gray-600 hover:text-orange-600" style={{
                   transition: 'all 0.3s ease',
                   transform: 'scale(1)',
                   display: 'inline-block'
@@ -62,10 +63,10 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                   Products
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="text-gray-600 hover:text-orange-600" style={{
+                <Link href="/about" className="text-gray-600 hover:text-orange-600" style={{
                   transition: 'all 0.3s ease',
                   transform: 'scale(1)',
                   display: 'inline-block'
@@ -74,10 +75,10 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="text-gray-600 hover:text-orange-600" style={{
+                <Link href="/contact" className="text-gray-600 hover:text-orange-600" style={{
                   transition: 'all 0.3s ease',
                   transform: 'scale(1)',
                   display: 'inline-block'
@@ -86,7 +87,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
