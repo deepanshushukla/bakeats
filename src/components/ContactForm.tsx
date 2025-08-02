@@ -169,7 +169,7 @@ export default function ContactForm({ productName }: ContactFormProps) {
   };
 
   return (
-    <section id="order" className="py-12">
+    <section id="order" >
       <div className="max-w-3xl mx-auto bg-white shadow-lg rounded-xl overflow-hidden">
         <div className="px-8 py-10">
           {/*<h2 className="text-3xl font-extrabold text-gray-800 mb-6 text-center">*/}

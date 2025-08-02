@@ -14,8 +14,8 @@ export default function Home() {
         <section className="mb-24">
           <Products />
         </section>
-        
-        <section className="mb-24">
+
+        <section>
           <h2 className="text-3xl font-bold text-center mb-8">Order Now</h2>
           <div className="max-w-2xl mx-auto">
             <ContactForm />

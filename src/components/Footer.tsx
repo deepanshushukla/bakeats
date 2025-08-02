@@ -25,11 +25,6 @@ export default function Footer() {
             <div className="flex space-x-4">
               <a href="#" className="text-gray-600 hover:text-orange-600 transition-colors">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 11.5a8.385 8.385 0 01-.94 f5.385 0 00-7.56-5.448M17 14a6 6 0 01-7.56-5.448m7.56 5.448A8.385 8.385 0 0112 21H9a8.385 8.385 0 01-8.385-8.385z" />
-                </svg>
-              </a>
-              <a href="#" className="text-gray-600 hover:text-orange-600 transition-colors">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
                 </svg>
               </a>
