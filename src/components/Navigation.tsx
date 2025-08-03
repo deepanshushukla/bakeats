@@ -23,7 +23,7 @@ export default function Navigation() {
         <div className="mx-auto px-4">
           <div className="flex justify-between h-16 items-center backdrop-blur-xs">
             <div className="flex items-center">
-              <Link href="/" className="text-gray-600 hover:text-orange-600" style={{
+              <Link href="/" className="text-gray-800 hover:text-orange-600" style={{
                 transition: 'all 0.3s ease',
                 transform: 'scale(1)',
                 display: 'inline-block'
@@ -49,7 +49,7 @@ export default function Navigation() {
                       className={`px-4 py-2 rounded-md text-sm font-medium ${
                         pathname === item.href
                           ? 'bg-gray-700 text-white shadow-md'
-                          : 'text-gray-300 hover:text-white hover:bg-gray-700'
+                          : 'text-gray-600 hover:text-white hover:bg-gray-700'
                       }`}
                     >
                       {item.label}
@@ -61,7 +61,7 @@ export default function Navigation() {
             <div className="md:hidden">
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="text-gray-400 hover:text-white"
+                className="text-gray-800 hover:text-white"
               >
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   {isMobileMenuOpen ? (
