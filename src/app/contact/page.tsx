@@ -1,10 +1,12 @@
 import Navigation from '@/components/Navigation';
 import ContactForm from '@/components/ContactForm';
+import { FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 export default function Contact() {
   return (
     <div className="min-h-screen">
       <main className="max-w-7xl mx-auto px-4 py-16">
+
         <section className="mb-24">
           <h1 className="text-4xl font-bold text-center mb-12">Contact Us</h1>
           
@@ -26,16 +28,18 @@ export default function Contact() {
                       href="https://twitter.com/bakeats"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-orange-600 hover:text-orange-700"
+                      className="text-orange-600 hover:text-orange-700 flex items-center gap-2"
                     >
+                      <FaTwitter className="w-5 h-5" />
                       Twitter
                     </a>
                     <a 
                       href="https://linkedin.com/company/bakeats"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-orange-600 hover:text-orange-700"
+                      className="text-orange-600 hover:text-orange-700 flex items-center gap-2"
                     >
+                      <FaLinkedin className="w-5 h-5" />
                       LinkedIn
                     </a>
                   </div>

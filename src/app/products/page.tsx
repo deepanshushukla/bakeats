@@ -115,14 +115,12 @@ export default function Products() {
                 </div>
                 <div className="flex justify-between items-center w-full">
                   <span className="text-4xl font-bold text-white">₹{product.price}</span>
-                  <button
-                    onClick={() => {
-                      // Show ContactForm with product name
-                    }}
-                    className="bg-gray-700 text-white px-8 py-4 rounded-xl hover:bg-gray-600 transition-colors font-semibold text-lg flex items-center gap-2"
-                  >
-                    <span>Order Now</span>
-                  </button>
+                  <Link
+                    href="/contact"
+                  className="bg-gray-700 text-white px-4 py-2 rounded-lg hover:bg-gray-600 transition-colors font-medium text-base flex items-center gap-1 inline-block md:px-8 md:py-4 md:text-lg md:gap-2 md:rounded-xl"
+                >
+                Order Now
+            </Link>
                 </div>
               </div>
             </motion.div>

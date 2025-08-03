@@ -53,7 +53,7 @@ export default function ContactForm({ productName }: ContactFormProps) {
     try {
       const payload = {
         to: 'deepanshu.shukla@toptal.com',
-        subject: `New Order: ${productName || 'General Inquiry'}`,
+        subject: `Bakeats New Order: ${productName || 'General Inquiry'}`,
         text: `New Order Received:\n\nProduct: ${productName || 'N/A'}\nCustomer: ${data.name} (${data.email}, ${data.phone})\n\nMessage:\n${data.message}`,
         html: `
 <!DOCTYPE html>
