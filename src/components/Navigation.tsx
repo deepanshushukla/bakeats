@@ -11,24 +11,24 @@ export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { href: '/', label: 'Home' },
-    { href: '/products', label: 'Products' },
-    { href: '/about', label: 'About Us' },
-    { href: '/contact', label: 'Contact' },
+    { href: '/', label: 'Home', ariaLabel: 'Home - Premium baked goods and cookies' },
+    { href: '/products', label: 'Bakery Products', ariaLabel: 'Explore our range of baked goods, cookies, and rusks' },
+    { href: '/about', label: 'About Bakeats', ariaLabel: 'Learn about our bakery and baking expertise' },
+    { href: '/contact', label: 'Contact Us', ariaLabel: 'Get in touch with our bakery' },
   ];
 
   return (
     <div className="relative">
       <nav className="fixed w-full z-50">
-        <div className="mx-auto px-4">
-          <div className="flex justify-between h-16 items-center backdrop-blur-xs">
+        <div className="mx-auto px-4 backdrop-blur-xs">
+          <div className="flex justify-between h-16 items-center">
             <div className="flex items-center">
               <Link href="/" className="text-gray-800 hover:text-orange-600" style={{
                 transition: 'all 0.3s ease',
                 transform: 'scale(1)',
                 display: 'inline-block'
               }} onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-                <img src="/bakeats-logo.png" alt="Bakeats Logo" className="h-12 w-auto" />
+                <img src="/bakeats-logo.png" alt="Bakeats - Premium Bakery and Baking Company" className="h-12 w-auto" />
               </Link>
             </div>
             <div className="hidden md:flex items-center space-x-8">
@@ -51,6 +51,7 @@ export default function Navigation() {
                           ? 'bg-gray-700 text-white shadow-md'
                           : 'text-gray-600 hover:text-white hover:bg-gray-700'
                       }`}
+                      aria-label={item.ariaLabel}
                     >
                       {item.label}
                     </Link>
@@ -85,7 +86,7 @@ export default function Navigation() {
             exit={{ opacity: 0, height: 0 }}
             className="fixed top-16 left-0 right-0 bg-black/80 z-40"
           >
-            <div className="px-4 py-8 mt-16">
+            <div className="px-4 py-8">
               {navItems.map((item) => (
                 <motion.div
                   key={item.href}
@@ -102,6 +103,7 @@ export default function Navigation() {
                         : 'text-gray-300 hover:text-white hover:bg-gray-700'
                     }`}
                     onClick={() => setIsMobileMenuOpen(false)}
+                    aria-label={item.ariaLabel}
                   >
                     {item.label}
                   </Link>

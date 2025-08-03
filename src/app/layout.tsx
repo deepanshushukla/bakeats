@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Bakeats - Premium Biscuits & Rusks",
   description: "Discover premium rusks and biscuits at Bakeats. Handcrafted with love and quality ingredients.",
+  icons: {
+    icon: "/bakeats-logo.png",
+  },
   keywords: "rusks, biscuits, premium baked goods, artisanal cookies, online bakery",
   authors: [{ name: "Bakeats" }],
   creator: "Bakeats",
@@ -25,17 +28,17 @@ export const metadata: Metadata = {
   robots: "index, follow",
   openGraph: {
     title: "Bakeats - Premium Biscuits & Rusks",
-    description: "Discover premium rusks and biscuits at Bakeats. Handcrafted with love and quality ingredients.",
-    url: "https://www.bakeats.com",
-    siteName: "Bakeats",
     images: [
       {
-        url: "/images/hero.jpg",
+        url: "/bakeats-logo.png",
         width: 1200,
         height: 630,
-        alt: "Bakeats Hero Image",
+        alt: "Bakeats Logo - Premium Bakery and Baking Company",
       },
     ],
+    description: "Discover premium rusks and biscuits at Bakeats. Handcrafted with love and quality ingredients.",
+    url: "https://www.bakeats.in",
+    siteName: "Bakeats",
     locale: "en_US",
     type: "website",
   },
