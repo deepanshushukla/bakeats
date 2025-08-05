@@ -13,7 +13,7 @@ export default function Navigation() {
   const navItems = [
     { href: '/', label: 'Home', ariaLabel: 'Home - Premium baked goods and cookies' },
     { href: '/products', label: 'Bakery Products', ariaLabel: 'Explore our range of baked goods, cookies, and rusks' },
-    { href: '/about', label: 'About Bakeats', ariaLabel: 'Learn about our bakery and baking expertise' },
+    { href: '/about', label: 'Our Story', ariaLabel: 'Learn about our bakery and baking expertise' },
     { href: '/contact', label: 'Contact Us', ariaLabel: 'Get in touch with our bakery' },
   ];
 

@@ -7,21 +7,21 @@ export default function About() {
       <main className="max-w-7xl mx-auto px-4 py-16">
         <section className="mb-24">
           <h1 className="text-4xl font-bold text-center mb-12">About Bakeats</h1>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-lg mb-4">
-                Bakeats was born out of a passion for creating premium rusks and biscuits that bring joy to people&rsquo;s lives. 
-                Our founder, [Founder&rsquo;s Name], started this journey with a simple goal - to create the best baked goods using 
+                Bakeats was born out of a passion for creating premium rusks and biscuits that bring joy to people&rsquo;s lives.
+                Our founder, [Founder&rsquo;s Name], started this journey with a simple goal - to create the best baked goods using
                 only the finest ingredients and traditional methods.
               </p>
               <p className="text-lg">
-                Today, Bakeats is known for its exceptional quality and commitment to excellence. We take pride in our 
+                Today, Bakeats is known for its exceptional quality and commitment to excellence. We take pride in our
                 artisanal approach and attention to detail in every product we create.
               </p>
             </div>
-            
+
             <div className="relative h-[400px]">
               <Image
                 src="/about-image.jpg"
@@ -32,6 +32,7 @@ export default function About() {
               />
             </div>
           </div>
+          
         </section>
 
         <section className="mb-24">
