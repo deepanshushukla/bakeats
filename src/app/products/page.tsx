@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import Navigation from '@/components/Navigation';
+import WhatsAppLink from '@/components/WhatsAppLink';
 
 interface Product {
   id: number;
@@ -75,6 +76,13 @@ export default function Products() {
           transition={{ duration: 0.8, ease: 'easeOut' }}
           className="text-center mb-16 relative overflow-hidden"
         >
+          <div className="text-center mb-12">
+            <h1 className="text-4xl font-bold mb-4">Our Products</h1>
+            <p className="text-xl text-gray-600">Sweet treats for your little ones. Handcrafted with love and care.</p>
+            <div className="mt-4">
+              <WhatsAppLink text="Order Now" className="text-lg font-medium" />
+            </div>
+          </div>
           <div className="relative">
             <h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-800">Our Products</h1>
             <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-600">
