@@ -20,11 +20,11 @@ export default function About() {
             <div className="order-2 md:order-1">
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-lg mb-4">
-                Bakeats was born out of a passion for creating premium rusks and biscuits that bring joy to people's lives.
+                Bakeats was born out of a passion for creating premium rusks and biscuits that bring joy to people&apos;s lives.
                 What began as a small home kitchen experiment has grown into a beloved brand known for its quality and taste.
               </p>
               <p className="text-lg">
-                From our humble beginnings to our current state-of-the-art bakery, we've stayed true to our roots,
+                From our humble beginnings to our current state-of-the-art bakery, we&apos;ve stayed true to our roots,
                 maintaining traditional methods while embracing innovation to deliver the best products to our customers.
               </p>
             </div>
@@ -61,8 +61,8 @@ export default function About() {
                 to create exceptional baked goods using time-honored techniques and premium ingredients.
               </p>
               <p className="text-lg mb-4">
-                "I believe baking is an act of love. Every product we make carries that same care and attention I put into
-                my first batches years ago," says Sarah.
+                &quot;I believe baking is an act of love. Every product we make carries that same care and attention I put into
+                my first batches years ago,&quot; says Sarah.
               </p>
               <div className="flex items-center space-x-4 mt-6">
                 <a href="#" className="text-blue-600 hover:text-blue-800">
